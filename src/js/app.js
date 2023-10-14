@@ -37,7 +37,7 @@ function render(variables = {}) {
           <h1>${variables.name || "Marta"} ${variables.lastName ||
     "del Pozo"}</h1>          
           <h2>${variables.role || "Developer"}</h2>
-          <h3>${variables.country || "USA"}, ${variables.city || "NY"}	</h3>
+          <h3>${variables.city || "NY"},	${variables.country || "USA"}</h3>
           <ul class="${variables.socialMediaPosition}">
             <li><a href="https://twitter.com/${variables.twitter ||
               "4geeksacademyES"}"><i class="fab fa-twitter"></i></a></li>
